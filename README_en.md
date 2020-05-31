@@ -1,49 +1,47 @@
 # vue-storybook-sample
 
-[English](README_en.md)
+## Overview
 
-## 概要
+- Vue.js + Storybook sample.
 
-- Vue.js + Storybook のサンプルです。
-
-## 実行環境
+## System requirements
 
 - Node.js - 12.x
 - Yarn - 1.17.x
 
-## 使用ライブラリ
+## Used library
 
 - vue - 2.6.x
 - @storybook/vue - 5.3.x
 
-## 動作確認
+## Usage
 
-### 1. サンプルのダウンロード
+### 1. Download Sample
 
 ```bash
 git clone https://github.com/yasu-s/vue-storybook-sample.git
 ```
 
-### 2. パッケージインストール  
+### 2.  Installing packages
 
 ```bash
 cd vue-storybook-sample
 yarn
 ```
 
-### 3. サンプルの起動  
+### 3. Launch sample application
 
 ```bash
 yarn storybook
 ```
 
-## 実行確認
+## Execution 
 
 - http://localhost:8080/
 
 ![storybook-vue](https://user-images.githubusercontent.com/2668146/83345245-de8eda00-a34b-11ea-8f41-8bde79f3a390.png)
 
-## 参考URL
+## URL
 
 - https://storybook.js.org/docs/guides/guide-vue/
 - https://github.com/storybookjs/storybook/tree/next/examples/vue-kitchen-sink
