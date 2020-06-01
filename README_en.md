@@ -23,14 +23,20 @@
 git clone https://github.com/yasu-s/vue-storybook-sample.git
 ```
 
-### 2.  Installing packages
+### 2. Branch change
 
 ```bash
 cd vue-storybook-sample
+git checkout develop/actions
+```
+
+### 3.  Installing packages
+
+```bash
 yarn
 ```
 
-### 3. Launch sample application
+### 4. Launch sample application
 
 ```bash
 yarn storybook
