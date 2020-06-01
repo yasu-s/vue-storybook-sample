@@ -1,5 +1,5 @@
 <template>
-  <button>{{ label }}</button>
+  <button @click="onClick">{{ label }}</button>
 </template>
 
 <script>
@@ -9,6 +9,11 @@ export default {
     label: {
       type: String,
       default: 'button',
+    },
+  },
+  methods: {
+    onClick($event) {
+      this.$emit('click', $event);
     },
   },
 };

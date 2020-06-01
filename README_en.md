@@ -13,6 +13,7 @@
 
 - vue - 2.6.x
 - @storybook/vue - 5.3.x
+- @storybook/addon-actions - 5.3.x
 
 ## Usage
 
@@ -39,7 +40,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook-vue](https://user-images.githubusercontent.com/2668146/83345245-de8eda00-a34b-11ea-8f41-8bde79f3a390.png)
+![storybook5](https://user-images.githubusercontent.com/2668146/83365006-3a0aa780-a3e0-11ea-93ce-caa178f83719.png)
 
 ## URL
 
