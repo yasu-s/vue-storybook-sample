@@ -26,14 +26,20 @@
 git clone https://github.com/yasu-s/vue-storybook-sample.git
 ```
 
-### 2. パッケージインストール  
+### 2. ブランチ切り替え
 
 ```bash
 cd vue-storybook-sample
+git checkout develop/knobs
+```
+
+### 3. パッケージインストール  
+
+```bash
 yarn
 ```
 
-### 3. サンプルの起動  
+### 4. サンプルの起動  
 
 ```bash
 yarn storybook
