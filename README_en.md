@@ -12,9 +12,10 @@
 ## Used library
 
 - vue - 2.6.x
-- @storybook/vue - 5.3.x
-- @storybook/addon-actions - 5.3.x
-- @storybook/addon-knobs - 5.3.x
+- @storybook/vue - 6.0.0-beta.23
+- @storybook/addon-actions - 6.0.0-beta.23
+- @storybook/addon-controls - 6.0.0-beta.23
+- @storybook/addon-docs - 6.0.0-beta.23
 
 ## Usage
 
@@ -41,7 +42,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook-knobs](https://user-images.githubusercontent.com/2668146/83464379-af8f7a00-a4ab-11ea-9ac6-5b843768f874.gif)
+![storybook-vue-controls](https://user-images.githubusercontent.com/2668146/84209742-dffd9680-aaf1-11ea-9152-c131c2d2d5b7.gif)
 
 ## URL
 
