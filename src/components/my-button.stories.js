@@ -1,30 +1,33 @@
 import { action } from '@storybook/addon-actions';
-import { withKnobs, text } from '@storybook/addon-knobs';
 
 import MyButton from './MyButton.vue';
 
 export default {
   title: 'MyButton',
-  decorators: [withKnobs],
+  component: MyButton,
 };
 
-export const Basic = () => ({
+export const Basic = (args) => ({
   components: { MyButton },
   template: '<my-button @click="onClick" :label="label" />',
-  props: {
-    label: {
-      default: text('Label', 'hoge'),
-    },
+  data() {
+    return args;
   },
   methods: {
     onClick: action('click'),
   },
 });
 
-export const ChangeLabel = () => ({
+export const ChangeLabel = (args) => ({
   components: { MyButton },
-  template: '<my-button label="hoge" @click="onClick" />',
+  template: '<my-button @click="onClick" :label="label" />',
+  data() {
+    return args;
+  },
   methods: {
     onClick: action('click'),
   },
 });
+ChangeLabel.argTypes = {
+  label: { defaultValue: 'hoge' },
+};
