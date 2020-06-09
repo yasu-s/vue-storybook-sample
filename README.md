@@ -15,7 +15,6 @@
 
 - vue - 2.6.x
 - @storybook/vue - 6.0.0-beta.23
-- @storybook/addon-actions - 6.0.0-beta.23
 - @storybook/addon-controls - 6.0.0-beta.23
 - @storybook/addon-docs - 6.0.0-beta.23
 
@@ -44,7 +43,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook-vue-controls](https://user-images.githubusercontent.com/2668146/84209742-dffd9680-aaf1-11ea-9152-c131c2d2d5b7.gif)
+![storybook-vue-controls1](https://user-images.githubusercontent.com/2668146/84210279-3fa87180-aaf3-11ea-9ac4-d824aa4a39c0.gif)
 
 ## 参考URL
 
