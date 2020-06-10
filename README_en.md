@@ -13,7 +13,6 @@
 
 - vue - 2.6.x
 - @storybook/vue - 5.3.x
-- @storybook/addon-actions - 5.3.x
 - @storybook/addon-knobs - 5.3.x
 
 ## Usage
@@ -48,7 +47,7 @@ yarn storybook
 
 - http://localhost:8080/
 
-![storybook-knobs](https://user-images.githubusercontent.com/2668146/83464379-af8f7a00-a4ab-11ea-9ac6-5b843768f874.gif)
+![storybook-vue-knobs](https://user-images.githubusercontent.com/2668146/84328750-ca55a300-abbd-11ea-8a90-a03c4e7dfebf.gif)
 
 ## URL
 
