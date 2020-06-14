@@ -14,9 +14,9 @@
 ## 使用ライブラリ
 
 - vue - 2.6.x
-- @storybook/vue - 6.0.0-beta.23
-- @storybook/addon-controls - 6.0.0-beta.23
-- @storybook/addon-docs - 6.0.0-beta.23
+- @storybook/vue - 6.0.0-beta.27
+- @storybook/addon-controls - 6.0.0-beta.27
+- @storybook/addon-docs - 6.0.0-beta.27
 
 ## 動作確認
 
