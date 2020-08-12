@@ -14,11 +14,11 @@
 ## 使用ライブラリ
 
 - vue - 2.6.x
-- @storybook/vue - 6.0.0-beta.31
-- @storybook/addon-actions - 6.0.0-beta.31
-- @storybook/addon-controls - 6.0.0-beta.31
-- @storybook/addon-docs - 6.0.0-beta.31
-- @storybook/addon-backgrounds - 6.0.0-beta.31
+- @storybook/vue - 6.0.x
+- @storybook/addon-actions - 6.0.x
+- @storybook/addon-controls - 6.0.x
+- @storybook/addon-docs - 6.0.x
+- @storybook/addon-backgrounds - 6.0.x
 
 ## 動作確認
 
