@@ -5,29 +5,30 @@ import MyButton from './MyButton.vue';
 export default {
   title: 'MyButton',
   component: MyButton,
+  argTypes: {
+    label: {
+      description: 'labelの説明',
+    },
+  },
 };
 
-export const Basic = (args) => ({
+export const Basic = (args, { argTypes }) => ({
   components: { MyButton },
   template: '<my-button @click="onClick" :label="label" />',
-  data() {
-    return args;
-  },
+  props: Object.keys(argTypes),
   methods: {
     onClick: action('click'),
   },
 });
 
-export const ChangeLabel = (args) => ({
+export const ChangeLabel = (args, { argTypes }) => ({
   components: { MyButton },
   template: '<my-button @click="onClick" :label="label" />',
-  data() {
-    return args;
-  },
+  props: Object.keys(argTypes),
   methods: {
     onClick: action('click'),
   },
 });
-ChangeLabel.argTypes = {
-  label: { defaultValue: 'hoge' },
+ChangeLabel.args = {
+  label: 'hoge',
 };
