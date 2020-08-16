@@ -5,21 +5,17 @@ export default {
   component: MyButton,
 };
 
-export const Basic = (args) => ({
+export const Basic = (args, { argTypes }) => ({
   components: { MyButton },
   template: '<my-button @click="onClick" :label="label" />',
-  data() {
-    return args;
-  },
+  props: Object.keys(argTypes),
 });
 
-export const ChangeLabel = (args) => ({
+export const ChangeLabel = (args, { argTypes }) => ({
   components: { MyButton },
   template: '<my-button @click="onClick" :label="label" />',
-  data() {
-    return args;
-  },
+  props: Object.keys(argTypes),
 });
-ChangeLabel.argTypes = {
-  label: { defaultValue: 'hoge' },
+ChangeLabel.args = {
+  label: 'hoge',
 };

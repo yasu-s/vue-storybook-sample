@@ -12,9 +12,9 @@
 ## Used library
 
 - vue - 2.6.x
-- @storybook/vue - 6.0.0-beta.28
-- @storybook/addon-controls - 6.0.0-beta.28
-- @storybook/addon-docs - 6.0.0-beta.28
+- @storybook/vue - 6.0.x
+- @storybook/addon-controls - 6.0.x
+- @storybook/addon-docs - 6.0.x
 
 ## Usage
 
